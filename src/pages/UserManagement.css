@@ -1,0 +1,213 @@
+.user-management {
+  padding: 24px;
+}
+
+.user-management-header {
+  margin-bottom: 24px;
+}
+
+.user-management-header h1 {
+  font-size: 28px;
+  color: var(--text-color);
+}
+
+.user-management-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  gap: 16px;
+}
+
+.user-management-controls {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 250px;
+}
+
+.bulk-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #e3f2fd;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.bulk-actions-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.user-name-link {
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+}
+
+.user-name-link:hover {
+  color: var(--primary-hover);
+}
+
+.role-badge, .status-badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.role-admin {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.role-moderator {
+  background-color: #f39c12;
+  color: white;
+}
+
+.role-user {
+  background-color: #3498db;
+  color: white;
+}
+
+.status-active {
+  background-color: #27ae60;
+  color: white;
+}
+
+.status-inactive {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.status-suspended {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.user-detail-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.user-detail-panel {
+  background-color: white;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.user-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.user-detail-header h2 {
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: var(--text-light);
+  cursor: pointer;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.close-button:hover {
+  background-color: #f5f7fa;
+}
+
+.user-detail-content {
+  padding: 20px;
+}
+
+.user-detail-section {
+  margin-bottom: 24px;
+}
+
+.user-detail-section h3 {
+  font-size: 16px;
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+
+.user-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.user-detail-item {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.user-detail-item strong {
+  display: block;
+  color: var(--text-light);
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.activity-logs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.activity-log-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.activity-log-action {
+  color: var(--text-color);
+}
+
+.activity-log-time {
+  color: var(--text-light);
+  font-size: 12px;
+}
