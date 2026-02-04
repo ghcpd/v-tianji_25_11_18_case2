@@ -1,0 +1,287 @@
+Prompt:
+
+
+
+You are a senior front-end engineer tasked with designing and implementing a complete, multi-page UI project from scratch. The project should use a modern front-end framework (React or Vue) and focus primarily on UI display, interaction, and data visualization.
+
+
+
+Project Requirements:
+
+
+
+Project Type: Admin Analytics & User Management Platform
+
+
+
+Pages & Features:
+
+
+
+Dashboard Page:
+
+
+
+Multiple data visualization components (charts, graphs, tables) showing user activity, system metrics, and engagement trends
+
+
+
+Interactive filters (date range, role, status) affecting charts and tables
+
+
+
+Loading states and simulated async data fetching
+
+
+
+User Management Page:
+
+
+
+Searchable, filterable, and sortable user list with pagination
+
+
+
+User detail panel showing profile info, activity logs, and role management options
+
+
+
+Single and multi-user selection for bulk actions
+
+
+
+Reports Page:
+
+
+
+Downloadable report generation (simulate PDF/CSV download)
+
+
+
+Display charts and tables with selectable metrics
+
+
+
+Interactive sorting, grouping, and filtering
+
+
+
+Settings Page:
+
+
+
+Editable user preferences and system configurations (simulate save with delay)
+
+
+
+Toggle switches, dropdowns, and input validation
+
+
+
+Data:
+
+
+
+All data is simulated/fake (JSON or in-memory arrays)
+
+
+
+Include at least 100 users with attributes: name, username, email, role, status, last login, activity logs
+
+
+
+Include metrics for charts: login trends, feature usage, system alerts
+
+
+
+Interactions & UI Behavior:
+
+
+
+Controlled inputs for search, filters, and settings
+
+
+
+Async behavior simulated with delays for fetching, saving, or generating reports
+
+
+
+Proper state management across pages to avoid stale or conflicting state
+
+
+
+Hover, click, and selection interactions with visual feedback
+
+
+
+Responsive layout with navigation menu for page switching
+
+
+
+Your tasks:
+
+
+
+1. Design and implement the full multi-page UI project.
+
+
+
+Use React or Vue as the framework
+
+
+
+Ensure all components are reusable and properly structured
+
+
+
+Handle async updates and loading/error states
+
+
+
+Maintain correct state across pages for selection, filtering, and settings
+
+
+
+Prevent race conditions and stale state issues
+
+
+
+2. Detect and fix potential functional bugs while developing.
+
+You must ensure there are no issues caused by:
+
+
+
+Incorrect rendering behavior
+
+
+
+Event-handling mistakes
+
+
+
+Direct state mutation
+
+
+
+Hook or lifecycle dependency errors
+
+
+
+Async timing inconsistencies
+
+
+
+Incorrect derived state
+
+
+
+Selection logic issues
+
+
+
+Stale or conflicting state from race conditions
+
+
+
+3. Generate runnable tests:
+
+
+
+Unit tests using Jest + React Testing Library (if React) or Vue Test Utils + Jest (if Vue)
+
+
+
+Tests verifying that all UI functionality works correctly and no regressions occur
+
+
+
+Tests covering:
+
+
+
+Controlled input updates
+
+
+
+List/table selection and pagination
+
+
+
+Async data fetching, saving, and report generation
+
+
+
+Filtering, sorting, and grouping
+
+
+
+Navigation between pages
+
+
+
+Chart updates based on filters
+
+
+
+4. Provide a runnable Bash script to start the project:
+
+
+
+The script should install all dependencies, start the development server, and open the project in the browser
+
+
+
+Allow full interaction with the UI pages and components
+
+
+
+5. At the end, output a summary file capturing:
+
+
+
+Overview of project structure
+
+
+
+Features implemented
+
+
+
+Test coverage
+
+
+
+No need to include individual bugs
+
+
+
+Title: Evaluation of Model Performance in Multi-Page UI Project Generation, Debugging, and Test Creation
+
+
+
+Description: This evaluation measures the model’s ability to:
+
+
+
+Generate a complete, multi-page, functional UI project from scratch
+
+
+
+Implement a complex admin platform with dashboards, tables, charts, and settings
+
+
+
+Produce minimal and accurate code with no functional bugs
+
+
+
+Generate runnable automated tests ensuring all functionality is verified
+
+
+
+Produce a Bash script to run and view the project in a browser
+
+
+
+Maintain clarity, good structure, and best practices throughout
